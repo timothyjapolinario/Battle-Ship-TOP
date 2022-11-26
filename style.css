@@ -1,0 +1,32 @@
+.content {
+}
+.board {
+  display: grid;
+  width: 30%;
+  row-gap: 5px;
+}
+.board-list {
+  padding: 20px;
+  display: flex;
+  gap: 10vw;
+  justify-content: center;
+}
+.inactive-pixel {
+  pointer-events: none;
+}
+.pixel {
+  width: calc(100% - 5px);
+  border: 1px solid rgb(128, 128, 128);
+}
+
+.ship-located {
+  background-color: aquamarine;
+}
+
+.inactive-board {
+  pointer-events: none;
+}
+
+.ship-attacked {
+  background-color: red;
+}
