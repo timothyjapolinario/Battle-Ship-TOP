@@ -1,3 +1,3 @@
-import Ship from "./modules/Ship.js";
+import initializeGame from "./modules/Game.js";
 
-console.log(Ship());
+initializeGame();
